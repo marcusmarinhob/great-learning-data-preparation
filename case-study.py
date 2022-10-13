@@ -36,5 +36,17 @@ warnings.filterwarnings('ignore')
 # Reading CSV file
 job = pd.read_csv('jobs_data.csv')
 
-# copying data to another variable to avoid any changes to original data
+# Copying data to another variable to avoid any changes to original data
 data = job.copy()
+
+# View the first 5 rows of dataset
+print(data.head())
+
+# View the last 5 rows of dataset
+print(data.tail())
+
+# Understand the shape of the dataset
+print(data.shape())
+
+# check the data types of the columns for the dataset
+print(data.info())
