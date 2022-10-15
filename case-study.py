@@ -1,6 +1,6 @@
 # Libraries to help with reading and manipulating
 
-import numpy as np
+import numpy as np 
 import pandas as pd
 
 # Libraries to help with data visualization
